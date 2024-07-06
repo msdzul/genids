@@ -14,17 +14,17 @@
     "formation": {
       "worker": {
         "quantity": 1,
-        "size": ""
+        "size": "basic"
       }
     },
     "addons": [
-        {
-           "options": {
-              "version": "16"
-           },
-           "plan": "heroku-postgresql"
-        }
-     ],
+      {
+         "plan": "heroku-postgresql",
+         "options": {
+               "version": "16"
+         }
+      }
+    ],
     "repository": "https://github.com/msdzul/genids",
     "env": {
       "api_id": {
