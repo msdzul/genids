@@ -14,7 +14,7 @@
     "formation": {
       "worker": {
         "quantity": 1,
-        "size": "basic"
+        "size": ""
       }
     },
     "addons": [
@@ -50,7 +50,7 @@
       "DB_NAME": {
         "description": "Database mongo db name",
         "required": true,
-        "value": ""
+        "value": "genids_bot"
       }
     }
   }
